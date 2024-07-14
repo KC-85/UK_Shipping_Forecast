@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.gradient-background {
+    background: linear-gradient(#00bfff), (#4040ff), (#03396c), (#000080);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+}
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(#00bfff), (rgb(0, 91, 150)), (#03396c), (#000080);
-    animation: gradient-animation 6s ease infinite;
     font-size: 2rem;
     font-family: sans-serif;
     color: rgb(7, 9, 10);
