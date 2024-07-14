@@ -9,7 +9,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(123, 184, 104), rgb(13, 87, 10));
+    background: linear-gradient(#00bfff), (rgb(0, 91, 150)), (#03396c), (#000080);
+    animation: gradient-animation 6s ease infinite;
     font-size: 2rem;
     font-family: sans-serif;
     color: rgb(7, 9, 10);
