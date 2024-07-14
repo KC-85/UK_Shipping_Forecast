@@ -6,9 +6,9 @@
 .gradient-background {
     background: linear-gradient(300deg, #00bfff), (#4040ff), (#03396c), (#000080);
     background-size: 180% 180%;
-    animation: gradient-animation 6s ease infinite;
+    animation: gradient 6s ease infinite;
 }
-@keyframes gradient-animation {
+@keyframes gradient {
     0% {
       background-position: 0% 50%;
     }
