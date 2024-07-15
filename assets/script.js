@@ -1,9 +1,10 @@
 let lon;
 let lat;
+let temperature = document.queryselecter(".temperature")
 let loc = document.queryselector(".location");
-let windir = document.queryselector(".wind direction");
-let winspd = document.queryselector(".wind speed");
-let beascl = document.queryselector(".beaufort scale");
-let seasta = document.queryselector(".sea state");
-let ovrcon = document.queryselector(".overall condition");
+let winddirection = document.queryselector(".wind direction");
+let beaufortscale = document.queryselector(".beaufort scale");
+let seastate = document.queryselector(".sea state");
+let overallcondition = document.queryselector(".overall condition");
+const kelvin = 273.15;
 
